@@ -57,13 +57,15 @@ p2 {
 
 a {
     color: $primary-text-color;
-    text-decoration: underline;
+    border-bottom: 1px dashed $dark;
+    text-decoration: none;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
-    text-decoration: none;
+        text-decoration: none;
+        border-bottom: 1px dashed $accent-color;
         color: $accent-color;
     }
 }
@@ -76,14 +78,13 @@ ul,
 ol {
   text-align: center;
   margin: 0 0 35px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   list-style-position: inside;
 }
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
     font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $primary-color-dark;
@@ -94,12 +95,12 @@ ol {
 
     .navbar-brand {
         font-weight: 700;
+        font-size: 24px;
             &:focus {
                 outline: none;
             }
         .navbar-toggle {
             padding: 4px 6px;
-            font-size: 16px;
                 color: $light;
                 &:focus,
                 &:active {
@@ -110,9 +111,10 @@ ol {
     a {
         color: $light;
         text-decoration: none;
+        border-bottom: 0px;
     }
     ul {
-      font-size: 14px;
+      font-size: 20px;
     }
     .nav {
         li {
@@ -139,7 +141,7 @@ ol {
     .navbar {
         padding: 20px 0;
         border-bottom: none;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         background: $primary-color-dark;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -152,7 +154,7 @@ ol {
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid $light;
+        border-bottom: none;
     }
 }
 
@@ -177,7 +179,7 @@ ol {
         }
 
         .intro-text {
-            font-size: 18px;
+            font-size: 12px;
         }
     }
 }
@@ -329,7 +331,7 @@ ul.social-buttons li a {
     display: block;
     width: 40px;
     height: 40px;
-    color: $accent-color;
+    color: $light;
     border-radius: 100%;
     font-size: 25px;
     line-height: 40px;
@@ -385,9 +387,9 @@ body {
 
 .typed-cursor{
     opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    -webkit-animation: blink 0.5s infinite;
+    -moz-animation: blink 0.5s infinite;
+    animation: blink 0.5s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
