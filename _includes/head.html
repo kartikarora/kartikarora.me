@@ -18,7 +18,7 @@
     <meta name="keywords" content="{{ site.keywords }}">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="{{ site.title }} {% if page.title %} | {{ page.title }}{% endif %}" />
+    <meta property="og:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}" />
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:image" content="{{ site.url }}/img/work/rma.png">
@@ -29,7 +29,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@chipset95">
     <meta name="twitter:creator" content="@chipset95">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="{{ site.url }}/img/work/rma.png">
     <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
