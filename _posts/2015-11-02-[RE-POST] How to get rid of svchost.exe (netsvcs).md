@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: "[RE-POST] How to get rid of svchost.exe (netsvcs)"
 category: tech
-tags: [ 'repost', 'svchost', 'netsvcs', 'windows' ]
+tags: [ 'repost', 'svchost', 'netsvcs', 'windows', 'tutorial' ]
 ---
 
 I had a *blog* back in 2012, based on <i class="fa fa-wordpress"></i> (self hosted). It was called **Chipset Unplugged** <i class="twa twa-stuck-out-tongue"></i> but I had to shut it down because it got too many spam comments. One of the most popular posts on it was ***How to get rid of svchost.exe (netsvcs)***. The video has more than 80,000 views now <i class="twa twa-smile"></i>

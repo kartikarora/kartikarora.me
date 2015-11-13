@@ -51,19 +51,20 @@ lines:          # You can add HTML Tags in the Text
   - text: "It’s not a <b>bug</b> – it’s an <b>undocumented feature</b>!"
   - text: "In order to understand <b>recursion</b>, one must first <b>understand recursion</b>"
   - text: "<b><i>Linux<i></b> is Truth"
-  - text: "Whoever said <i>Money can't buy you happiness</i> obviously never bought themselves a <b>drum kit</b>"
+  - text: "Whoever said <i>money can't buy you happiness</i> obviously never bought themselves a <b>drum kit</b>"
 
 ########
 # Blog #
 ########
 
-post-preview-words: 50
+post-preview-words: 30
 
-paginate: 5
+paginate: 10
 
 fb-share: True
 twitter-share: True
 reddit-share: True
+google-plus-share: True
 disqus-shortname: "chipset95"
 
 ###############

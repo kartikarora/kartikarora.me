@@ -16,13 +16,10 @@
         {{ page.content | markdownify }}
 
         {% for post in paginator.posts %}
-          <h4 align="left">
-            {{ post.date | date_to_string }} | 
-            {{ post.category }} | 
-            <a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}</a> | 
-            <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a>
-          </h4>
-          <p2 align="left">{{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}</p2>
+            <h2 align="left"><a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}</a></h2>
+            <br><h5 align="left">Posted On: {{ post.date | date_to_string }}, Under {{ post.category }}</h5>  
+            <br><p2>{{ post.content | truncatewords: site.post-preview-words | markdownify }}</p2>
+            <br>
         {% endfor %}
 
         {% include pagination.html %}
