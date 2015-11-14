@@ -12,7 +12,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{site.baseurl}}/js/grayscale.js"></script>
-
+{% if jekyll.environment == "production" %}
 {% if site.google-tracking-id %}
 
   <!-- Google Tracking Id Start -->
@@ -28,6 +28,7 @@
 
   <!-- Google Tracking Id End -->
 
+{% endif %}
 {% endif %}
 
 {% if site.disqus-shortname %}

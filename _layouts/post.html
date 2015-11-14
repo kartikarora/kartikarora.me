@@ -14,20 +14,21 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
 
-          <h1>{{ page.title }}</h1>
-          <h5><br><br>Posted on: {{ page.date | date_to_string }}
-          <br><br> Under: {{ page.category }} 
-              <br><br> <small>Tags: </small>
+            <h1>{{ page.title }}</h1>
+            <h5><br><br>Posted on: {{ page.date | date_to_string }}
+            <br><br> Under: {{ page.category }} 
+            <br><br> <small>Tags: </small>
             {% for tag in page.tags %}
-              <small><a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>&nbsp;</small> 
-            {% endfor %}
-          </h4>
-          <br>
-          <p2 align="left">{{ page.content | markdownify }}</p2>
+                <small><a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>&nbsp;</small> 
+            {% endfor %}</h5>
+            <br>
+            <p2 align="left">{{ page.content | markdownify }}</p2>
 
-          {% include share.html %}
+            {% include share.html %}
 
-          {% include comments.html %}
+            {% if jekyll.environment == "production" %}
+                {% include comments.html %}
+            {% endif %}
 
         </div>
       </div>
