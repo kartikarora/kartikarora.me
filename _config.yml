@@ -14,7 +14,7 @@ google-tracking-id: "UA-69555022-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 
-force-https: False
+force-https: True
 
 #############
 # HTML Head #
@@ -65,6 +65,7 @@ fb-share: True
 twitter-share: True
 reddit-share: True
 google-plus-share: True
+pinterest-share: True
 disqus-shortname: "chipset95"
 
 ###############
