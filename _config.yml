@@ -100,16 +100,16 @@ disqus-shortname: "chipset95"
 ###############
 
 events:
-  - image: "/img/work/tt15.png"
+  - image: "/img/timeline/tt15.png"
     date: "TechTatva'15"
     description: "Team Lead for college techfest app.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.techtatva\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/chipset95/TechTatva\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
-  - image: "/img/work/revels15.png"
+  - image: "/img/timeline/revels15.png"
     date: "Revels'15"
     description: "Android app for college cultural fest.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.revels\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/chipset95/Revels\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
-  - image: "/img/work/default.png"
+  - image: "/img/timeline/default.png"
     date: "Potato Library"
     description: "Easy to use Utility library for Android.<br>Get it on <a href=\"https://github.com/chipset95/Potato-Library\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
-  - image: "/img/work/cpp.png"
+  - image: "/img/timeline/cpp.png"
     date: "Started Coding"
     description: "TurboC++ 3, the first IDE I used. Marked the begining of my journey in the amazing world of programming"
 
