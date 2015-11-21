@@ -1,3 +1,4 @@
+
 # Site settings
 
 url: "https://chipset95.github.io"
@@ -7,13 +8,38 @@ url: "https://chipset95.github.io"
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: ""
+baseurl:
+
+# Google tracking id to track your visitors
 
 google-tracking-id: "UA-69555022-1"
 
 # Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
 
 force-https: True
+
+syntax-highlight: True
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Timeline: 'timeline'
+  Contact: 'contact'
+  Blog: 'latest-post'
+
+web-app-mode: True
+
+# Icons for Web App mode 
+
+icon-36p: "/img/icon.ico"
+icon-48p: "/img/icon.ico"
+icon-72p: "/img/icon.ico"
+icon-96p: "/img/icon.ico"
+icon-144p: "/img/icon.ico"
+icon-192p: "/img/icon.ico"
 
 #############
 # HTML Head #
@@ -21,10 +47,10 @@ force-https: True
 
 author: "Kartik Arora"
 lang: "en"
-title: "{ Chipset }"
+title: "{ CHIPSET }"
 favicon: "/img/icon.ico"
-description: "Kartik\'s personal site and blog"
-keywords: "kartik, arora, personal, chipset, github, android, app developer"
+description: "Website, Portfolio and Blog of Kartik Arora"
+keywords: "kartik, arora, chipset, blog, portfolio"
 
 ################
 # Intro layout #
@@ -39,13 +65,13 @@ me-img: "https://avatars3.githubusercontent.com/u/6591617"
 ##############################
 
 dynamic-typing: True
-shuffle: True   # Shuffle the lines.
+shuffle: True	# Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 50      # Default 10
-start-delay: 100    # Default 200
-delete-delay: 2000  # Default 5000
-lines:          # You can add HTML Tags in the Text
+loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+type-speed:	10		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 5000	# Default 5000
+lines:			# You can add HTML Tags in the Text
   - text: "The best thing about a <b>boolean</b> is even if you are wrong, you are only off by a <b>bit</b>!"
   - text: "It’s not a <b>bug</b> – it’s an <b>undocumented feature</b>!"
   - text: "In order to understand <b>recursion</b>, one must first <b>understand recursion</b>"
@@ -56,16 +82,17 @@ lines:          # You can add HTML Tags in the Text
 # Blog #
 ########
 
-post-preview-words: 30
+post-preview-words: 100
 
-paginate: 10
+paginate: 5
 
 fb-share: True
 twitter-share: True
 reddit-share: True
 google-plus-share: True
-pinterest-share: True
-
+linkedin-share: True
+pinterest-share: False
+vkontakte-share: False
 disqus-shortname: "chipset95"
 
 ###############
@@ -87,7 +114,7 @@ events:
     description: "TurboC++ 3, the first IDE I used. Marked the begining of my journey in the amazing world of programming"
 
 # First image of the Career timeline
-work-img: "/img/work/rma2.png"
+career-img: "/img/timeline/rma2.png"
 
 ##################
 # Contact layout #
@@ -123,24 +150,19 @@ social:
 
 # Tread carefully if you want to change the variables below this point!
 
-# Navigation bar links
-# Blog link in the blog and post pages will point to the blog.html#blog
-# In the default page it will point to the preview of the last post
+# Exclusion list from the generated _site
 
-pages_list:
-    About: 'about'
-    Blog: 'blog'
-    Contact: 'contact'
-    Work: 'work'
+exclude: ["LICENSE", "README", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 
 # Pagination path
-paginate_path: "blog/page:num"
+
+paginate_path: "blog/page:num/"
 
 # Enable minification SASS
+
 sass:
   style: compressed
 
-# Exclusion list from the generated _site
-exclude: ["Rakefile", "LICENSE", ".gitignore", "vendor", "README.md", "res/resume.pdf"]
-
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
+  - jemoji

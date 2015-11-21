@@ -1,18 +1,19 @@
 
 <!-- Latest Post Preview Start -->
 
-<section id="{{ page.title }}" class="container content-section text-center">
+<section id="{{ page.section-type }}" class="container content-section text-center">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-10 col-lg-offset-1">
 
         {{ page.content | markdownify }}
 
         {% assign post = site.posts.first %}
-        <h3><a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}</a></h3>
+       <h3><a href="{{site.baseurl}}{{post.url}}"> {{ post.title }}</a></h3>
         <br><h5>Posted On: {{ post.date | date_to_string }}, Under {{ post.category }}</h5>
         <br><h4><a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></h4>
         <br><p2>{{ post.content | truncatewords: site.post-preview-words | markdownify }}</p2>
-        <h3><a href="/blog">View More Posts</a></h3>
+        <br><h3><a href="/blog">View More Posts</a></h3>
+
       </div>
     </div>
 </section>

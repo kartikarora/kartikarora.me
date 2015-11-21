@@ -1,6 +1,6 @@
 // Variables
 
-$primary: #fed136;
+$primary: #00cdff;
 $dark: #000;
 $light: #fff;
 
@@ -12,3 +12,14 @@ $accent-color:         #FFC107;
 $primary-text-color:   #212121;
 $secondary-text-color: #727272;
 $divider-color:        #B6B6B6;
+
+$navbar-text-shadow: false;
+$header-text-shadow: false;
+$header-background-color: $primary-color;
+$intro-text-color: $light;
+$navbar-color: $light;
+$navbar-lg-collapse-background-color: $primary-color-dark;
+$navbar-lg-background: $primary-color-dark;
+$navbar-sm-background-color: $primary-color-dark;
+
+$social-buttons-color: $accent-color;
