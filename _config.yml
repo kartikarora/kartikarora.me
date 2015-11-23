@@ -86,11 +86,13 @@ post-preview-words: 100
 
 paginate: 5
 
+email-share: True
 fb-share: True
 twitter-share: True
 reddit-share: True
 google-plus-share: True
 linkedin-share: True
+tumblr-share: True
 pinterest-share: False
 vkontakte-share: False
 disqus-shortname: "chipset95"
