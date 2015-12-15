@@ -20,10 +20,10 @@
             <br><br> <small>Tags: </small>
             {% for tag in page.tags %}
                 <small><a href="{{site.baseurl}}/tags/{{tag}}.html">#{{ tag }}</a>&nbsp;</small> 
-            {% endfor %}</h5>
+            {% endfor %}
+            </h5>
             <br>
             <p2 align="left">{{ page.content | markdownify }}</p2>
-
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}

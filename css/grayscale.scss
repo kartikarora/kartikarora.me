@@ -249,7 +249,7 @@ div {
     /* Added in { Personal } */
     ul,
     ol {
-        text-align: center;
+        text-align: left;
         margin: 0 0 25px;
         font-size: 18px;
         line-height: 1.5;
@@ -263,14 +263,20 @@ div {
 }
 
 /* Added in { Personal } */
+ul.social-buttons {
+    float: center;
+    text-align: center;
+}
 ul.social-buttons li a {
     display: block;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     font-size: 20px;
+    text-align: center;
     line-height: 40px;
     outline: 0;
+    float: center;
     border-bottom: none;
     color: $primary-text-color;
     background-color: #fff;
