@@ -4,7 +4,7 @@ section-type: post
 title: "Android Developer Nanodegree"
 category: android
 tags: [ 'android', 'nanodegree', 'udacity' ]
-permalink: /blog/Android Developer Nanodegree
+permalink: /blog/Android-Developer-Nanodegree
 ---
 
 So a few weeks back, Google India and Tata Trusts announced a [scholarship](https://www.udacity.com/india) scheme for the Android Developer Nanodegree Program on Udacity. I was pretty excited and applied for it, and I got the scholarship. A few of my friends had a few queries about it, so I thought I'll just list them here for anyone who's interested and has similar queries.
