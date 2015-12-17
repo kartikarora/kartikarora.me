@@ -26,7 +26,7 @@ It involved an assessment based on Java. It was pretty easy. They just tested in
 
 The Nanodegree course is amazing. The course includes projects on following
 
-- Android Add Development Fundamentals
+- Android App Development Fundamentals
 - Productionisation and Publishing of Android Apps
 - Using [Google Play Services](https://developers.google.com/android/guides/overview) in Android Apps
 - Android App Automation using [Gradle](http://en.wikipedia.org/wiki/Gradle)
