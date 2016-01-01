@@ -24,12 +24,16 @@
             </h5>
             <br>
             <p2 align="left">{{ page.content | markdownify }}</p2>
+            <hr>
+          <p>&nbsp;</p>
+          <i><b><p align="left">Because sharing is caring...</p></b></i>
           {% include share.html %}
 
           {% if jekyll.environment == "production" %}
             {% include comments.html %}
           {% endif %}
-          
+          <p>&nbsp;</p>
+          <b><p>Get in touch for help, issues and/or suggestions</p></b>
           {% include social-buttons.html %}
 
         </div>
