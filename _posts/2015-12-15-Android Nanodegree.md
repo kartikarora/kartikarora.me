@@ -27,11 +27,11 @@ It involved an assessment based on Java. It was pretty easy. They just tested in
 The Nanodegree course is amazing. The course includes projects on following
 
 - Android App Development Fundamentals
-- Productionisation and Publishing of Android Apps
+- Productionise and Publish Android Apps
 - Using [Google Play Services](https://developers.google.com/android/guides/overview) in Android Apps
 - Android App Automation using [Gradle](http://en.wikipedia.org/wiki/Gradle)
 - Android UI/UX design with focus on [Material Design](https://www.google.com/design)
-- Android [Ubiqiutous Computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) on platforms like Android Wear, Android TV and Android Auto
+- Android [Ubiquitous Computing](https://en.wikipedia.org/wiki/Ubiquitous_computing) on platforms like Android Wear, Android TV and Android Auto
 
 Apart from this, there are some optional projects included in the Nanodegree which aim at helping you build your Resume, LinkedIn Profile, GitHub Profile and an Android Dry Run Interview that simulates an in-person interview.
 
@@ -39,13 +39,13 @@ Apart from this, there are some optional projects included in the Nanodegree whi
 
 Typically, a nanodegree program asks for 10-12 hours in a week and expects you to work on your own schedule. I'm not sure about other Nanodegrees, but mine has fixed due dates for compulsory projects.
 
-As of today, I have successfully submitted two projects which were due on [28th December](https://github.com/chipset95/Android-ND-P0) and [6th February](https://github.com/chipset95/Android-ND-P1). I'll try to complete most of it in my Winter Vacations.
+As of 1st January 2016, I have successfully submitted three projects which were due on [28th December](https://github.com/chipset95/Android-ND-P1-P2/tree/stage1), [8th February](https://github.com/chipset95/Android-ND-P1-P2/tree/stage2) and [11th April](https://github.com/chipset95/Android-ND-P3). I'll try to complete most of it in my Winter Vacations.
 
-> ***This sounds interesting! Can I enrol now?***
+> ***This sounds interesting! Can I enroll now?***
 
-Yes the scholarship for Android Developer Nanodegree is still open. Head over to [this page](https://www.udacity.com/india) if you wish to apply. But the scholarship is for Indian students only.
+Yes, the scholarship for Android Developer Nanodegree is still open. Head over to [this page](https://www.udacity.com/india) if you wish to apply. But the scholarship is for Indian students only.
 
-There are many other Nanodegree programs available from Udacity and other parteners.
+There are many other Nanodegree programs available from Udacity and other partners.
 
 <a href="https://www.udacity.com/nanodegree" target="_blank"><img src="../../img/blog/nanodegree/nano.png" /></a>
 
