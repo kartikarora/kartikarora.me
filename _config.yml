@@ -1,7 +1,7 @@
 
 # Site settings
 
-url: "https://chipset95.github.io"
+url: "http://kartikarora.me"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -110,7 +110,7 @@ events:
     description: "Android app for college cultural fest.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.revels\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/chipset95/Revels\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/default.png"
     date: "Potato Library"
-    description: "Easy to use Utility library for Android.<br>Get it on <a href=\"https://github.com/chipset95/Potato-Library\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
+    description: "Easy to use Utility library for Android.<br>Get it on <a href=\"http://kartikarora.me/Potato-Library\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/cpp.png"
     date: "Started Coding"
     description: "TurboC++ 3, the first IDE I used. Marked the begining of my journey in the amazing world of programming"
@@ -122,7 +122,7 @@ career-img: "/img/timeline/rma2.png"
 # Contact layout #
 ##################
 
-email: "kartik_arora95@@yahoo.co.in"
+email: "aawaazdo@kartikarora.me"
 
 ##################
 # Social Buttons #
@@ -130,7 +130,7 @@ email: "kartik_arora95@@yahoo.co.in"
 
 social:
   - title: "github"
-    url: "https://github.com/chipset95"
+    url: "https://github.com/kartikarora"
   - title: "twitter"
     url: "https://twitter.com/chipset95"
   - title: "youtube"
