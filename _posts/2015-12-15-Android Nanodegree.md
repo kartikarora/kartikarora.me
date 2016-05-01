@@ -52,4 +52,3 @@ There are many other Nanodegree programs available from Udacity and other partne
 <a href="https://www.udacity.com/nanodegree" target="_blank"><img src="../../img/blog/nanodegree/nano.png" /></a>
 
 I hope I have covered most of the queries you have. If you have any other question, feel free to drop in a comment below or contact me directly :smile:
-git
