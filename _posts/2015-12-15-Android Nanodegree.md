@@ -39,14 +39,17 @@ Apart from this, there are some optional projects included in the Nanodegree whi
 
 Typically, a nanodegree program asks for 10-12 hours in a week and expects you to work on your own schedule. I'm not sure about other Nanodegrees, but mine has fixed due dates for compulsory projects.
 
-As of 1st January 2016, I have successfully submitted three projects which were due on [28th December](https://github.com/chipset95/Android-ND-P1-P2/tree/stage1), [8th February](https://github.com/chipset95/Android-ND-P1-P2/tree/stage2) and [11th April](https://github.com/chipset95/Android-ND-P3). I'll try to complete most of it in my Winter Vacations.
+As of 1st May 2016, I have successfully completed five projects which were due on [28th December](https://github.com/kartikarora/Android-ND-P1-P2/tree/stage1), [8th February](https://github.com/kartikarora/Android-ND-P1-P2/tree/stage2), [11th April](https://github.com/kartikarora/Android-ND-P3), [27th June](https://github.com/kartikarora/Android-ND-P4) and [29th August](https://github.com/kartikarora/Android-ND-P5). I plan to complete rest of it in the upcoming vacation.
 
 > ***This sounds interesting! Can I enroll now?***
 
-Yes, the scholarship for Android Developer Nanodegree is still open. Head over to [this page](https://www.udacity.com/india) if you wish to apply. But the scholarship is for Indian students only.
+~~Yes, the scholarship for Android Developer Nanodegree is still open. Head over to [this page](https://www.udacity.com/india) if you wish to apply.~~
+
+Sorry, but the applications closed after 29th February! The scholarships were for Indian students only.
 
 There are many other Nanodegree programs available from Udacity and other partners.
 
 <a href="https://www.udacity.com/nanodegree" target="_blank"><img src="../../img/blog/nanodegree/nano.png" /></a>
 
 I hope I have covered most of the queries you have. If you have any other question, feel free to drop in a comment below or contact me directly :smile:
+git
