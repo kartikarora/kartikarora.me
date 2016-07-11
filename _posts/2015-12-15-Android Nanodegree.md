@@ -39,7 +39,7 @@ Apart from this, there are some optional projects included in the Nanodegree whi
 
 Typically, a nanodegree program asks for 10-12 hours in a week and expects you to work on your own schedule. I'm not sure about other Nanodegrees, but mine has fixed due dates for compulsory projects.
 
-As of 1st May 2016, I have successfully completed five projects which were due on [28th December](https://github.com/kartikarora/Android-ND-P1-P2/tree/stage1), [8th February](https://github.com/kartikarora/Android-ND-P1-P2/tree/stage2), [11th April](https://github.com/kartikarora/Android-ND-P3), [27th June](https://github.com/kartikarora/Android-ND-P4) and [29th August](https://github.com/kartikarora/Android-ND-P5). I plan to complete rest of it in the upcoming vacation.
+As of 7th July 2016, I have successfully completed all 8 projects. They can be viewed on [GitHub](https://github.com/kartikarora) 
 
 > ***This sounds interesting! Can I enroll now?***
 
