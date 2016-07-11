@@ -75,6 +75,7 @@ lines:			# You can add HTML Tags in the Text
   - text: "The best thing about a <b>boolean</b> is even if you are wrong, you are only off by a <b>bit</b>!"
   - text: "It’s not a <b>bug</b> – it’s an <b>undocumented feature</b>!"
   - text: "In order to understand <b>recursion</b>, one must first <b>understand recursion</b>"
+  - text: "Failure is not an option. It comes bundled with <b>Windows</b>!"
   - text: "<b><i>Linux<i></b> is Truth"
   - text: "Whoever said <i>money can't buy you happiness</i> obviously never bought themselves a <b>drum kit</b>"
 
@@ -102,12 +103,15 @@ disqus-shortname: "chipset95"
 ###############
 
 events:
+  - image: "/img/timeline/trsh.png"
+    date: "Transfer.sh"
+    description: "Easy file sharing from your Android device! <br>Download App from <a href=\"https://play.google.com/store/apps/details?id=me.kartikarora.transfersh\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/Transfer.sh\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/tt15.png"
     date: "TechTatva'15"
-    description: "Team Lead for college techfest app.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.techtatva\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/chipset95/TechTatva\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
+    description: "Team Lead for college techfest app.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.techtatva\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/TechTatva\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/revels15.png"
     date: "Revels'15"
-    description: "Android app for college cultural fest.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.revels\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/chipset95/Revels\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
+    description: "Android app for college cultural fest.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.revels\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/Revels\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/default.png"
     date: "Potato Library"
     description: "Easy to use Utility library for Android.<br>Get it on <a href=\"http://kartikarora.me/Potato-Library\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
