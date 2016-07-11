@@ -7,7 +7,7 @@ tags: [ 'gnome', 'linux', 'internet' ]
 permalink: /blog/gnome-captive-net-portal
 ---
 
-Often when Public Access Points for WiFi - at Airports, Malls, Train Stations - we face the issue of "logging in" to get the internet access. 
+Often when connecting to Public Access Points for WiFi - at Airports, Malls, Train Stations - we face the issue of "logging in" to get the internet access. 
 Typical steps require you to open your browser and hit google.com so that you get redirected to login portal.
 
 I'm not a very big fan of this process. Why can't the login page just popup when I'm behind a Captive Portal?
