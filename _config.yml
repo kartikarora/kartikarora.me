@@ -169,6 +169,7 @@ keybase-in-footer: True
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+include: ["keybase.txt"]
 
 # Pagination path
 

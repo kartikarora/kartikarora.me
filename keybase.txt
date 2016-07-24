@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/kartikarora
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kartikarora.me
+  * I am kartikarora (https://keybase.io/kartikarora) on keybase.
+  * I have a public key ASCAC5GKPF1SnlwcJ_FO0vyKmNiRQWwa2PK-7ep-0t4MiAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b6f037fda81f9b981ec99cbc7d1d2d26dc13d50c133c90b7a5516363a68e149d0a",
+            "host": "keybase.io",
+            "kid": "0120800b918a3c5d529e5c1c27f14ed2fc8a98d891416c1ad8f2beedea7ed2de0c880a",
+            "uid": "ffc212ba04033732cf9b7446c0b86619",
+            "username": "kartikarora"
+        },
+        "service": {
+            "hostname": "kartikarora.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469395851,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469395780,
+        "hash": "47ad95fc6100b84610cab352168ef2e8c6c893434f6ecd5275971b892e2f718a2967f4643296d0b13dfe0e51b76643fc7cb1da475221e3daac2861505bc8985f",
+        "seqno": 540509
+    },
+    "prev": "5936b465b592cfc80d5e69344af543a997c54c3bfc0637a593e6370693a1e686",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggAuRijxdUp5cHCfxTtL8ipjYkUFsGtjyvu3qftLeDIgKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjZmMDM3ZmRhODFmOWI5ODFlYzk5Y2JjN2QxZDJkMjZkYzEzZDUwYzEzM2M5MGI3YTU1MTYzNjNhNjhlMTQ5ZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODAwYjkxOGEzYzVkNTI5ZTVjMWMyN2YxNGVkMmZjOGE5OGQ4OTE0MTZjMWFkOGYyYmVlZGVhN2VkMmRlMGM4ODBhIiwidWlkIjoiZmZjMjEyYmEwNDAzMzczMmNmOWI3NDQ2YzBiODY2MTkiLCJ1c2VybmFtZSI6ImthcnRpa2Fyb3JhIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJrYXJ0aWthcm9yYS5tZSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NjkzOTU4NTEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2OTM5NTc4MCwiaGFzaCI6IjQ3YWQ5NWZjNjEwMGI4NDYxMGNhYjM1MjE2OGVmMmU4YzZjODkzNDM0ZjZlY2Q1Mjc1OTcxYjg5MmUyZjcxOGEyOTY3ZjQ2NDMyOTZkMGIxM2RmZTBlNTFiNzY2NDNmYzdjYjFkYTQ3NTIyMWUzZGFhYzI4NjE1MDViYzg5ODVmIiwic2Vxbm8iOjU0MDUwOX0sInByZXYiOiI1OTM2YjQ2NWI1OTJjZmM4MGQ1ZTY5MzQ0YWY1NDNhOTk3YzU0YzNiZmMwNjM3YTU5M2U2MzcwNjkzYTFlNjg2Iiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA1wF+x/IX+2nkPdAJ7WSXytHl6+G1mXJQmasPdoWdH90Czqd9W7MKgrtzKwJ//Recc5Z7/3wRez8TnGPT+IuLCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFkNkb9ThYCgFw+XtS5Sc67E/OROZz2FcYbN8llh1eN1o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kartikarora
+
+==================================================================
