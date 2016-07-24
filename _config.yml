@@ -148,6 +148,14 @@ social:
   - title: "rss"
     url: "/feed.xml"
 
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: kartikarora
+keybase-in-social: True
+keybase-in-footer: True
+
 ############
 # 404 page #
 ############

@@ -39,7 +39,7 @@ Apart from this, there are some optional projects included in the Nanodegree whi
 
 Typically, a nanodegree program asks for 10-12 hours in a week and expects you to work on your own schedule. I'm not sure about other Nanodegrees, but mine has fixed due dates for compulsory projects.
 
-As of 7th July 2016, I have successfully completed all 8 projects. They can be viewed on [GitHub](https://github.com/kartikarora) 
+As of 7th July 2016, I have successfully completed all 8 projects and I have received the completion certificate. They can be viewed on [GitHub](https://github.com/kartikarora) 
 
 > ***This sounds interesting! Can I enroll now?***
 
