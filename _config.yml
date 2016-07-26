@@ -112,7 +112,7 @@ events:
   - image: "/img/timeline/revels16.png"
     date: "Revels'16"
     description: "Team Lead for college for college cultural fest.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.revels\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/Revels\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
-  - image: "/img/timeline/default.png"
+  - image: "/img/timeline/potato.png"
     date: "Potato Library"
     description: "Easy to use Utility library for Android.<br>Get it on <a href=\"http://kartikarora.me/Potato-Library\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/cpp.png"
