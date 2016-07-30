@@ -103,6 +103,9 @@ disqus-shortname: "chipset95"
 ###############
 
 events:
+  - image: "/img/timeline/flico.svg"
+    date: "Flico"
+    description: "A new dimension to movies and TV shows! Flico by Flicsys Inc. Checkout the website <a href=\"http://flico.me\" target=\"_blank\"><i class=\"fa fa-globe\"></i><a>"
   - image: "/img/timeline/trsh.png"
     date: "Transfer.sh"
     description: "Easy file sharing from your Android device! <br>Download App from <a href=\"https://play.google.com/store/apps/details?id=me.kartikarora.transfersh\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/Transfer.sh\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
