@@ -111,6 +111,7 @@ events:
     description: "Easy file sharing from your Android device! <br>Download App from <a href=\"https://play.google.com/store/apps/details?id=me.kartikarora.transfersh\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/Transfer.sh\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/wd.png"
     title: "Wear Dialer"
+    description: "Dial a number directly from your wrist!<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.weardialer\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/WearDialer\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
   - image: "/img/timeline/tt15.png"
     title: "TechTatva'15"
     description: "Team Lead for college techfest app.<br>Download App from <a href=\"https://play.google.com/store/apps/details?id=chipset.techtatva\" target=\"_blank\">Play Store</a><br>View it on <a href=\"https://github.com/kartikarora/TechTatva\" target=\"_blank\"><i class=\"fa fa-github\"></i></a>"
