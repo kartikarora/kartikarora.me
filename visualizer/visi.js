@@ -25,3 +25,7 @@ function draw() {
         circle(xPos, y2Pos, size);
     }
 }
+
+function mousePressed() {
+    getAudioContext().resume();
+}
