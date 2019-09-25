@@ -20,7 +20,7 @@ function start() {
 
 $('#start_picking').click(function () {
     let items = $('#ze_items').val().split('\n');
-    $('#title').hide;
+    $('#title').hide();
     $('#ze_items').hide();
     $('#start_picking').text('NEXT');
     $('#restart_process').show();
