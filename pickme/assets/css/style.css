@@ -1,8 +1,9 @@
 body, p, h1, h2, h3, h4, h5, h6, textarea {
     font-family: 'Signika', sans-serif;
     margin-top: 25px !important;
+    height: 100vw;
 }
 
 h1 {
-    font-size: 25vw;
+    font-size: 18vw;
 }
