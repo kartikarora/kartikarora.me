@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Typer</title>
     <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css">
     <style>
         body {
             margin-top: 40vh;
@@ -11,6 +12,14 @@
             text-align: center;
             vertical-align: middle;
             font-size: 10vh;
+        }
+
+        code {
+            font-family: 'Fira Code', monospace;
+        }
+
+        red {
+            color: red;
         }
     </style>
 </head>
@@ -24,19 +33,20 @@
 <script src="typed.js"></script>
 <script type="text/javascript">
 
-    var myQuotes = new Array();
+    let myQuotes = [];
 
     myQuotes.push("Make sure you save your code to canvas!");
-
-    myQuotes.push("DO NOT submit until you have completed the quiz.");
-
-    myQuotes.push("Keep calm and code your design");
+    myQuotes.push("Canvas saves the pasted text automatically.");
+    myQuotes.push("<red><b>DO NOT</b></red> submit until you have completed the quiz");
+    myQuotes.push("Use <code>Edit > Tidy Code</code> on p5 web editor to format the code properly");
+    myQuotes.push("Call one of the tutors if you need help");
+    myQuotes.push("<red>♚</red> Keep calm and code your design <red>♚</red>");
 
 
     $(".intro-text").typed({
         strings: myQuotes,
         typeSpeed: 10,
-        backDelay: 5000,
+        backDelay: 2000,
         startDelay: 200,
         loop: true,
         loopCount: false,
