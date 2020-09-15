@@ -166,7 +166,7 @@ keybase-in-footer: True
 # 404 page #
 ############
 
-404-img: "/img/404.png"
+not-found-img: "/img/404.png"
 
 ################################################################################
 
@@ -186,6 +186,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
