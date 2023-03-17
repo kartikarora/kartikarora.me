@@ -1,50 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url='https://linktr.ee/inkholicau'"/>
+        <meta http-equiv="refresh" content="0; url='https://linktr.ee/inkholicau'"/>
 
     <style>
 
-        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+        :root {
+            --primary: #ead9eb;
+            --primary_dark: #2d192f;
+            --accent: #f47d34;
+            --shadow: #7e60a6;
+        }
 
         * {
-            font-size: 3vw;
-            font-family: 'Titillium Web', sans-serif;
+            font-size: 4vw;
+            background-color: var(--primary);
+            color: var(--accent);
+            font-family: 'Fira Sans', sans-serif;
         }
 
         a {
             text-decoration: none;
         }
 
-        /* Light mode */
-        @media (prefers-color-scheme: light) {
-            *, a {
-                background-color: #ead9eb;
-                color: #2d192f;
-            }
-
-            a:hover {
-                background-color: #2d192f;
-                color: #ead9eb;
-            }
+        a:hover {
+            background-color: white;
+            box-shadow: var(--shadow) 0.8vw 0.8vw 0 0;
         }
 
-        /* Dark mode */
-        @media (prefers-color-scheme: dark) {
-            *, a {
-                background-color: #2d192f;
-                color: #ead9eb;
-            }
+        div.logo {
+            text-align: center;
+            padding-bottom: 1vw;
+        }
 
-            a:hover {
-                background-color: #ead9eb;
-                color: #2d192f;
-            }
+        img.logo_img {
+            width: 60vw;
+            height: auto;
+        }
+
+        body {
+            padding: 4vw;
         }
     </style>
+    <title></title>
 </head>
 <body>
-<img src="../img/404.png">
+<div class="logo">
+    <img class="logo_img" src="../img/inkaholic/logo.png">
+</div>
 <br/>
 Redirecting to Inkaholic. Please click <a href="https://linktr.ee/inkholicau">here</a> if the browser does not
 take you automatically.
