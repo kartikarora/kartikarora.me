@@ -5,21 +5,30 @@ $dark: #000;
 $light: #fff;
 
 $primary-color-dark:   #303F9F;
-$primary-color:        #3F51B5;
-$primary-color-light:  #C5CAE9;
-$primary-color-text:   #FFFFFF;
+$primary-color:        #303F9F;
+$divider-color:        #B6B6B6;
 $accent-color:         #FFC107;
+
+// light mode colors
+$primary-surface:   #FFFFFF;
 $primary-text-color:   #212121;
 $secondary-text-color: #727272;
-$divider-color:        #B6B6B6;
+$social-buttons-color: $primary-text-color;
+
+// dark mode colors
+$primary-surface-dark:   #212121;
+$primary-text-color-dark:   invert($primary-text-color);
+$secondary-text-color-dark: invert($secondary-text-color);
+$social-buttons-color-dark: $primary-text-color-dark;
 
 $navbar-text-shadow: false;
 $header-text-shadow: false;
 $header-background-color: $primary-color;
 $intro-text-color: $light;
 $navbar-color: $light;
-$navbar-lg-collapse-background-color: $primary-color-dark;
-$navbar-lg-background: $primary-color-dark;
-$navbar-sm-background-color: $primary-color-dark;
+$navbar-accent-color: $accent-color;
+$navbar-lg-collapse-background-color: $primary-color;
+$navbar-lg-background: $primary-color;
+$navbar-sm-background-color: $primary-color;
 
 $social-buttons-color: $accent-color;

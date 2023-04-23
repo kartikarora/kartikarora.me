@@ -10,14 +10,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 
 body {
     width: 100%;
     height: 100%;
-    font-family: 'JetBrains Mono', sans-serif;
-    color: $primary-text-color;
-    background-color: $primary-color-text;
+    font-family: 'Readex Pro', sans-serif;
 }
 
 html {
@@ -33,7 +30,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -56,8 +53,6 @@ p2 {
 }
 
 a {
-    color: $primary-text-color;
-    border-bottom: 1px dashed $primary-text-color;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -65,11 +60,10 @@ a {
     &:focus {
         text-decoration: none;
         border-bottom: none;
-        color: $accent-color;
     }
 }
 
-a.rrssb {    
+a.rrssb {
     text-decoration: none;
     border-bottom: none;
 }
@@ -84,7 +78,7 @@ div {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
-    font-family: 'JetBrains Mono', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
@@ -105,6 +99,11 @@ div {
         &:focus {
             outline: none;
         }
+        &:hover {
+            outline: none;
+            color: $accent-color;
+        }
+
     }
     a {
         color: $navbar-color;
@@ -121,20 +120,20 @@ div {
                 -moz-transition: background .3s ease-in-out;
                 transition: background .3s ease-in-out;
                 &:hover {
-                    /* color: rgba($light, 0.8); */
                     outline: none;
-                    background-color: rgba($light, 0.3);
+                    color: $accent-color;
+                    background-color: transparent;
                 }
                 &:focus,
                 &:active {
-                    outline: none;
-                    background-color: rgba($light, 0.3);
+                    outline: none;background-color: transparent;
                 }
             }
             &.active {
+                color: $accent-color;
                 outline: none;
                 a {
-                    background-color: rgba($light, 0.3);
+                    background-color: transparent;
                     &:hover {
                         color: $navbar-color;
                     }
@@ -153,7 +152,6 @@ div {
         &.top-nav-collapse {
             padding: 0;
             background: $navbar-lg-collapse-background-color;
-            border-bottom: 1px solid rgba($light, 0.3);
         }
     }
 }
@@ -164,6 +162,7 @@ div {
     height: auto;
     padding: 100px 0;
     text-align: center;
+    font-family: 'JetBrains Mono', monospace;
     color: $intro-text-color;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
@@ -280,19 +279,10 @@ ul.social-buttons li a {
     outline: 0;
     float: center;
     border-bottom: none;
-    color: $primary-text-color;
-    background-color: #fff;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-
-    &:hover,
-    &:focus,
-    &:active {
-        color: $social-buttons-color;
-        background-color: $primary-text-color;
-    }
 }
 
 footer {
@@ -304,14 +294,10 @@ footer {
 
 ::-moz-selection {
     text-shadow: none;
-    background: $primary-text-color;
-    background: $accent-color;
 }
 
 ::selection {
     text-shadow: none;
-    background: $primary-text-color;
-    background: $accent-color;
 }
 
 img::selection {
@@ -320,10 +306,6 @@ img::selection {
 
 img::-moz-selection {
     background: transparent;
-}
-
-body {
-    -webkit-tap-highlight-color: rgba($light, 0.2);
 }
 
 /* Added in { Personal } for Typed Cursor in Header */
@@ -354,6 +336,76 @@ code { text-align: left; }
 
 img.emoji {
   // Override any img styles to ensure Emojis are displayed inline
-  margin: 0px !important;
+  margin: 0 !important;
   display: inline !important;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: $primary-text-color;
+        background-color: $primary-surface;
+        -webkit-tap-highlight-color: rgba($light, 0.2);
+    }
+    a {
+        color: $primary-text-color;
+        border-bottom: 1px dashed $primary-text-color;
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+    ul.social-buttons li a {
+        background-color: $primary-surface;
+        color: $primary-text-color;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: $accent-color;
+        }
+    }
+    ::-moz-selection {
+        background: $accent-color;
+    }
+
+    ::selection {
+        background: $accent-color;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: $primary-text-color-dark;
+        background-color: $primary-surface-dark;
+        -webkit-tap-highlight-color: rgba($dark, 0.2);
+    }
+    a {
+        color: $primary-text-color-dark;
+        border-bottom: 1px dashed $primary-text-color-dark;
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
+    ul.social-buttons li a {
+        background-color: $primary-surface-dark;
+        color: $primary-text-color-dark;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $primary-text-color;
+            background-color: $accent-color;
+        }
+    }
+
+    ::-moz-selection {
+        color: $primary-text-color;
+        background: $accent-color;
+    }
+
+    ::selection {
+        color: $primary-text-color;
+        background: $accent-color;
+    }
 }

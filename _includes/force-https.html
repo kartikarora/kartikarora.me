@@ -2,8 +2,8 @@
 {% if site.force-https %}
   <!-- Force HTTPS Start -->
   <script>
-  var host = "kartikarora.me";
-  if ((host == window.location.host) && (window.location.protocol != "https:"))
+  let host = "kartikarora.me";
+  if ((host === window.location.host) && (window.location.protocol !== "https:"))
       window.location.protocol = "https";
   </script>
 
