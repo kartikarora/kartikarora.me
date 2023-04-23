@@ -28,7 +28,6 @@ pages_list:
   About: 'about'
   Work: 'work'
   Contact: 'contact'
-  Blog: 'latest-post'
 
 web-app-mode: True
 
@@ -91,7 +90,7 @@ email-share: True
 fb-share: True
 twitter-share: True
 reddit-share: True
-google-plus-share: True
+google-plus-share: False
 linkedin-share: True
 tumblr-share: True
 pinterest-share: False
@@ -140,27 +139,26 @@ email: "aawaazdo@kartikarora.me"
 
 social:
   - title: "github"
+    type: "brands"
     url: "https://github.com/kartikarora"
-  - title: "twitter"
-    url: "https://twitter.com/kartikarora95"
-  - title: "youtube"
-    url: "https://youtube.com/kartikarora"
   - title: "linkedin"
+    type: "brands"
     url: "https://in.linkedin.com/in/arorakartik"
-  - title: "angellist"
-    url: "https://angel.co/kartikarora"
+  - title: "medium"
+    type: "brands"
+    url: "https://in.linkedin.com/in/arorakartik"
+  - title: "twitter"
+    type: "brands"
+    url: "https://twitter.com/kartikarora95"
+  - title: "mastodon"
+    type: "brands"
+    url: "https://androiddev.social/@Kartikarora"
+  - title: "keybase"
+    type: "brands"
+    url: "https://keybase.io/kartikarora"
   - title: "envelope"
+    type: "solid"
     url: "mailto:aawaazdo@kartikarora.me"
-  - title: "rss"
-    url: "/feed.xml"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: kartikarora
-keybase-in-social: True
-keybase-in-footer: True
 
 ############
 # 404 page #

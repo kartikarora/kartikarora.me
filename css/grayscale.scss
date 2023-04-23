@@ -63,11 +63,6 @@ a {
     }
 }
 
-a.rrssb {
-    text-decoration: none;
-    border-bottom: none;
-}
-
 div {
   -webkit-user-select: text;
   -moz-user-select: text;
@@ -360,6 +355,7 @@ img.emoji {
         &:hover,
         &:focus,
         &:active {
+            color: $primary-text-color;
             background-color: $accent-color;
         }
     }
