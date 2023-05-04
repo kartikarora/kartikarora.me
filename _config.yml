@@ -25,9 +25,22 @@ syntax-highlight: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Work: 'work'
-  Contact: 'contact'
+  - label: "About"
+    type: about
+    href: "about"
+    external: false
+  - label: "Work"
+    type: work
+    href: "work"
+    external: false
+  - label: "Contact"
+    type: contact
+    href: "contact"
+    external: false
+  - label: "Talks & Articles"
+    type: talks
+    href: "https://medium.com/@kartikarora"
+    external: true
 
 web-app-mode: True
 
@@ -78,25 +91,6 @@ lines:			# You can add HTML Tags in the Text
   - text: "<b><i>Linux<i></b> is Truth"
   - text: "Whoever said <i>money can't buy you happiness</i> obviously never bought themselves a <b>drum kit</b>"
 
-########
-# Blog #
-########
-
-post-preview-words: 99
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-reddit-share: True
-google-plus-share: False
-linkedin-share: True
-tumblr-share: True
-pinterest-share: False
-vkontakte-share: False
-disqus-shortname: "chipset95"
-
 ###############
 # Life Events #
 ###############
@@ -146,7 +140,7 @@ social:
     url: "https://in.linkedin.com/in/arorakartik"
   - title: "medium"
     type: "brands"
-    url: "https://in.linkedin.com/in/arorakartik"
+    url: "https://medium.com/@kartikarora"
   - title: "twitter"
     type: "brands"
     url: "https://twitter.com/kartikarora95"
@@ -174,10 +168,6 @@ not-found-img: "/img/404.png"
 
 exclude: ["LICENSE", "README", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 include: ["keybase.txt"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
 
 # Enable minification SASS
 
