@@ -1,7 +1,7 @@
 <!-- Social Buttons Start -->
 <ul class="list-inline social-buttons">
     {% for network in site.social %}
-    <li><a href="{{ network.url }}" target="_blank"><i class="fa-{{ network.type }} fa-{{ network.title }}"></i></a></li>
+    <li><a href="{{ network.url }}" rel="me" target="_blank"><i class="fa-{{ network.type }} fa-{{ network.title }}"></i></a></li>
     {% endfor %}
 </ul>
 
