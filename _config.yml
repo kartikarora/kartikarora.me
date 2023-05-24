@@ -18,9 +18,9 @@ google-tracking-id: "UA-69555022-1"
 # If you are not hosted on Github Pages, and your host doesn't support https
 # then you should disable it
 
-force-https: True
+force-https: true
 
-syntax-highlight: True
+syntax-highlight: true
 
 # Sections shown in the index page
 
@@ -28,21 +28,25 @@ pages_list:
   - label: "About"
     type: about
     href: "about"
-    external: false
+    destination: "inline"
   - label: "Work"
     type: work
     href: "work"
-    external: false
+    destination: "inline"
+  - label: "Talks"
+    type: talks
+    href: "talks"
+    destination: "internal"
+  - label: "Articles"
+    type: articles
+    href: "https://medium.com/@kartikarora"
+    destination: "external"
   - label: "Contact"
     type: contact
     href: "contact"
-    external: false
-  - label: "Talks & Articles"
-    type: talks
-    href: "https://medium.com/@kartikarora"
-    external: true
+    destination: "inline"
 
-web-app-mode: True
+web-app-mode: true
 
 # Icons for Web App mode 
 
@@ -76,10 +80,10 @@ me-img: "https://avatars3.githubusercontent.com/u/6591617"
 # Dynamic Text on the header #
 ##############################
 
-dynamic-typing: True
-shuffle: True	# Shuffle the lines.
-loop: True
-loop-count:	False # Set False for infinite loop, or set any number for finite loop.
+dynamic-typing: true
+shuffle: true	# Shuffle the lines.
+loop: true
+loop-count:	false # Set false for infinite loop, or set any number for finite loop.
 type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
@@ -175,5 +179,5 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-paginate
+  - jeykyll-gist
   - jemoji

@@ -4,7 +4,7 @@ section-type: post
 title: "[LINUX] Top Commands List"
 category: linux
 tags: [ 'linux', 'commands' ]
-permalink: /blog/Top-Commands-List
+permalink: /old-blog/Top-Commands-List
 ---
 
 Here's a terminal command to know the *top 10* commands you use. Gives you a sense of what you really do on the machine!

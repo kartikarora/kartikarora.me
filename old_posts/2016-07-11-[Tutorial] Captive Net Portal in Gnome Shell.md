@@ -4,7 +4,7 @@ section-type: post
 title: "[Tutorial] Captive Net Portal in Gnome Shell"
 category: gnome
 tags: [ 'gnome', 'linux', 'internet' ]
-permalink: /blog/gnome-captive-net-portal
+permalink: /old-blog/gnome-captive-net-portal
 ---
 
 Often when connecting to Public Access Points for WiFi - at Airports, Malls, Train Stations - we face the issue of "logging in" to get the internet access. 

@@ -4,7 +4,7 @@ section-type: post
 title: "Dealing with CNAME and MX"
 category: System Admin
 tags: [ 'sysadmin', 'dns', 'cname', 'mx', 'website', 'domain' ]
-permalink: /blog/dealing-cname-mx
+permalink: /old-blog/dealing-cname-mx
 ---
 
 Alright so, this is something I encountered a few hours back. I've been fiddling with the DNS records of one my domains, shifting my host and stuff. 
