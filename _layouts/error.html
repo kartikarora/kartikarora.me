@@ -9,23 +9,28 @@
 
 {% include navigation.html %}
 
-<section class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-10 col-lg-offset-1">
+<header class="intro">
+    <div class="intro-body">
+        <section class="container content-section text-center">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
 
-            {{ page.content | markdownify }}
-            <br>
+                    {{ page.content | markdownify }}
+                    <br>
 
-            <img class="img-responsive center-block" src="{{site.baseurl}}{{ site.not-found-img }}" alt="" height="200px"
-                 width="200px">
+                    <img class="img-responsive center-block img-me" src="{{site.baseurl}}{{ site.not-found-img }}"
+                         alt="" height="200px"
+                         width="200px">
 
-            <br>
-            <h4>Let's go <a class="four04" href="{{site.baseurl}}/">home</a> shall we!</h4>
+                    <br>
+                    <h4>Let's go <a class="four04" href="{{site.baseurl}}/">home</a> shall we!</h4>
 
-        </div>
+                </div>
 
+            </div>
+        </section>
     </div>
-</section>
+</header>
 
 {% include footer.html %}
 

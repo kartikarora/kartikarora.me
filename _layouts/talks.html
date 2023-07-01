@@ -8,23 +8,35 @@
 <body>
 
 {% include navigation.html %}
-
 <section id="page" class="container content-section text-center">
     <div class="row">
-        <!-- asdasds -->
         <div class="col-lg-10 col-lg-offset-1">
-            {{ page.content | markdownify }}
+            <p2>{{ page.content | markdownify }}</p2>
             <br>
-            {% for talk in site.posts %}
-            <h3><a href="{{talk.baseurl}}{{talk.url}}"> {{ talk.title }}</a></h3>
-            <img class="img-me img-responsive" src="/{{talk.cover-img}}" />
-            <br><h5>Presented On: {{ talk.date | date_to_string }}, Technology {{ talk.technology }}</h5>
-            <hr>
-            {% endfor %}
-            {% include social-buttons.html %}
 
+            {% for talk in site.posts %}
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4">
+                    <img class="img-me img-responsive" src="/{{talk.cover-img}}"/>
+                </div>
+                <div class="col-9 col-md-8 col-sm-8">
+                    <br>
+                    <br>
+                    <h3><a href="{{talk.baseurl}}{{talk.url}}"> {{ talk.title }}</a></h3>
+                    <br>
+                    <h5>Presented On: {{ talk.date | date_to_string }}, Technology: {{ talk.technology }}</h5>
+                    <br>
+                </div>
+            </div>
+            {% if forloop.last %}
+            <br>
+            {% else %}
+            <hr>
+            {% endif %}
+            {% endfor %}
         </div>
     </div>
+
 </section>
 
 {% include footer.html %}

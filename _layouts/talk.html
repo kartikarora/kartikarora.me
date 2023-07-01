@@ -15,14 +15,13 @@
         
             <img src="/{{page.cover-img}}"/>
             <h1>{{ page.title }}</h1>
-            <h5><br><br>Presented on: {{ page.date | date_to_string }}
+            <h5 align="left">
+                Presented on: {{ page.date | date_to_string }} @ {{ page.location }}, {{ page.type }}
                 <br><br>Technology: {{ page.technology }}
                 <br><br>
-                <p2 align="left">{{ page.content | markdownify }}</p2>
-                <hr>
                 <br><br>
-                <b><p>Get in touch for help, issues and/or suggestions</p></b>
-                {% include social-buttons.html %}
+                <p2 align="left">{{ page.content | markdownify }}</p2>
+                <br><br>
         </div>
     </div>
 </section>

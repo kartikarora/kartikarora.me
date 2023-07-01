@@ -172,10 +172,10 @@ div {
     padding: 100px 0;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
-    color: $intro-text-color;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
+    color: $intro-text-color;
     background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -243,12 +243,7 @@ div {
 }
 
 .content-section {
-    margin-top: 100px;
     padding-top: 100px;
-    @media(min-width:767px) {
-        margin-top: 125px;
-        padding-top: 125px;
-    }
     /* Added in { Personal } for responsive images in posts and section contents */
     img {
         display: block;
@@ -295,6 +290,8 @@ ul.social-buttons li a {
 }
 
 footer {
+    color: $intro-text-color;
+    background-color: $header-background-color;
     padding: 50px 0;
     p {
         margin: 0;
@@ -417,5 +414,11 @@ img.emoji {
     ::selection {
         color: $primary-text-color;
         background: $accent-color;
+    }
+
+    #page{
+        &.content-section{
+            padding-top: 125px;
+        }
     }
 }

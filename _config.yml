@@ -3,11 +3,6 @@
 
 url: "http://kartikarora.me"
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-
 baseurl: ""
 
 # Google tracking id to track your visitors
@@ -41,21 +36,17 @@ pages_list:
     type: articles
     href: "https://medium.com/@kartikarora"
     destination: "external"
-  - label: "Contact"
-    type: contact
-    href: "contact"
-    destination: "inline"
 
 web-app-mode: true
 
 # Icons for Web App mode 
 
-icon-36p: "/img/icon.ico"
-icon-48p: "/img/icon.ico"
-icon-72p: "/img/icon.ico"
-icon-96p: "/img/icon.ico"
-icon-144p: "/img/icon.ico"
-icon-192p: "/img/icon.ico"
+icon-36p: "/img/icon192.png"
+icon-48p: "/img/icon192.png"
+icon-72p: "/img/icon192.png"
+icon-96p: "/img/icon192.png"
+icon-144p: "/img/icon192.png"
+icon-192p: "/img/icon192.png"
 
 #############
 # HTML Head #
@@ -64,7 +55,7 @@ icon-192p: "/img/icon.ico"
 author: "Kartik Arora"
 lang: "en"
 title: "Kartik Arora"
-favicon: "/img/icon.ico"
+favicon: "/img/favicon.ico"
 description: ""
 keywords: "kartik, arora, chipset, blog, portfolio"
 
@@ -74,7 +65,7 @@ keywords: "kartik, arora, chipset, blog, portfolio"
 
 black-favicon: ""
 background-img: ""
-me-img: "https://avatars3.githubusercontent.com/u/6591617"
+me-img: "/img/kartik.jpg"
 
 ##############################
 # Dynamic Text on the header #
@@ -169,6 +160,8 @@ not-found-img: "/img/404.png"
 # Tread carefully if you want to change the variables below this point!
 
 # Exclusion list from the generated _site
+
+future: true
 
 exclude: ["LICENSE", "README", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
 include: ["keybase.txt"]

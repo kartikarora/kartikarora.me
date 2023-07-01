@@ -6,17 +6,20 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            {% if page.section-type == "index" %}
+            {% if page.page-type == "index" %}
             <a class="navbar-brand page-scroll" href="#page-top">
-                {% else %}
-                <a class="navbar-brand" href="{{site.baseurl}}/">
-                    {% endif %}
-                    <div>
-                        {% if site.black-favicon %}<img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">{% endif
-                        %}
-                        {{ site.title }}
-                    </div>
-                </a>
+            {% elsif page.page-type != "index" %}
+            <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
+            {% else %}
+            <a class="navbar-brand" href="{{site.baseurl}}">
+            {% endif %}
+            <div>
+            {% if site.black-favicon %}
+                <img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">
+            {% endif %}
+            {{ site.title }}
+            </div>
+            </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">

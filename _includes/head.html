@@ -38,7 +38,7 @@
 
     <!-- Custom CSS -->
     <link href="{{site.baseurl}}/css/grayscale.css" rel="stylesheet">
-    {% if page.section-type == "index" %}
+    {% if page.page-type == "index" or page.page-type == "talks" or page.page-type == "error" %}
     <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet">
     {% endif %}
 
@@ -59,9 +59,10 @@
             integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <![endif]-->
-    {% if site.favicon %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}{{site.favicon}}">
-    {% endif %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/img/icon180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/img/icon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/img/icon16.png">
+    <link rel="manifest" href="{{site.baseurl}}/img/site.webmanifest">
 
     {% if page.url == "/404.html" | prepend: {{site.baseurl}} %}
     <meta http-equiv="refresh" content="5; url={{site.baseurl}}/">
