@@ -1,5 +1,4 @@
 <!-- Talk Layout Start -->
-
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
@@ -10,9 +9,10 @@
 {%- include navigation.html -%}
 
 <section id="post" class="container content-section text-center">
+    {%- include pagination.html -%}
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
-        
+
             <img src="/{{page.cover-img}}"/>
             <h1>{{ page.title }}</h1>
             <h5 align="left">
@@ -24,13 +24,10 @@
                 <br><br>
         </div>
     </div>
+    {%- include pagination.html -%}
 </section>
 
 {%- include footer.html -%}
-
-{%- include js.html -%}
-
 </body>
 </html>
-
 <!-- Post Layout End -->

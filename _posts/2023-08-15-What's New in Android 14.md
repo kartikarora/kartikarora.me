@@ -3,9 +3,9 @@ layout: talk
 section-type: talk
 title: "Android in its teens"
 technology: Android
-cover-img: "img/talks/android-13.png"
-permalink: /talks/android-13
-location: "GDG Sydney"
+cover-img: "img/talks/android-14.png"
+permalink: /talks/android-14-dc
+location: "Droidcon"
 type: "In Person"
 ---
 ## Slides
