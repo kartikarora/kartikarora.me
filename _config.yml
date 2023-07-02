@@ -75,15 +75,14 @@ dynamic-typing: true
 shuffle: true	# Shuffle the lines.
 loop: true
 loop-count:	false # Set false for infinite loop, or set any number for finite loop.
-type-speed:	10		# Default 10
-start-delay: 200	# Default 200
-delete-delay: 5000	# Default 5000
+type-speed:	2		# Default 10
+start-delay: 10	# Default 200
+delete-delay: 3000	# Default 5000
 lines:			# You can add HTML Tags in the Text
   - text: "The best thing about a <b>boolean</b> is even if you are wrong, you are only off by a <b>bit</b>!"
-  - text: "It’s not a <b>bug</b> – it’s an <b>undocumented feature</b>!"
+  - text: "It’s not a <b>bug</b> – it’s an <i>undocumented feature</i>!"
   - text: "In order to understand <b>recursion</b>, one must first <b>understand recursion</b>"
   - text: "Failure is not an option. It comes bundled with <b>Windows</b>!"
-  - text: "<b><i>Linux<i></b> is Truth"
   - text: "Whoever said <i>money can't buy you happiness</i> obviously never bought themselves a <b>drum kit</b>"
 
 ###############
@@ -130,24 +129,31 @@ social:
   - title: "github"
     type: "brands"
     url: "https://github.com/kartikarora"
+    on_nav: false
   - title: "linkedin"
     type: "brands"
     url: "https://in.linkedin.com/in/arorakartik"
+    on_nav: true
   - title: "medium"
     type: "brands"
     url: "https://medium.com/@kartikarora"
+    on_nav: true
   - title: "twitter"
     type: "brands"
     url: "https://twitter.com/kartikarora95"
+    on_nav: false
   - title: "mastodon"
     type: "brands"
     url: "https://androiddev.social/@Kartikarora"
+    on_nav: false
   - title: "keybase"
     type: "brands"
     url: "https://keybase.io/kartikarora"
+    on_nav: false
   - title: "envelope"
     type: "solid"
     url: "mailto:aawaazdo@kartikarora.me"
+    on_nav: true
 
 ############
 # 404 page #

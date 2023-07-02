@@ -51,6 +51,10 @@
                 </li>
                 {% endfor %}
                 {% endif %}
+                {% assign nav_socials = site.social | where: 'on_nav', true %}
+                {% for social in nav_socials %}
+                <li><a href="{{ social.url }}" rel="me" target="_blank"><i class="fa-{{ social.type }} fa-{{ social.title }}"></i></a></li>
+                {% endfor %}
             </ul>
         </div>
     </div>
