@@ -141,7 +141,7 @@ social:
     on_nav: false
   - title: "linkedin"
     type: "brands"
-    url: "https://in.linkedin.com/in/arorakartik"
+    url: "https://linkedin.com/in/arorakartik"
     on_nav: true
   - title: "medium"
     type: "brands"

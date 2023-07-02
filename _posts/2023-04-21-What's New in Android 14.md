@@ -10,8 +10,9 @@ type: "In Person"
 ---
 
 ## Slides:
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2v57QgDu101b5rr_c38w7NEFcN7Qujej58xbdvJzIIebOe0k7m38mV_X52lfH3iOjlxCkx0d-7b3-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div class="talk-container">
+    <iframe class="talk-iframe" src="https://docs.google.com/presentation/d/e/2PACX-1vQ2v57QgDu101b5rr_c38w7NEFcN7Qujej58xbdvJzIIebOe0k7m38mV_X52lfH3iOjlxCkx0d-7b3-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 <br>
 
 ## Recording:
