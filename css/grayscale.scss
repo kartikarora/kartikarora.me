@@ -172,9 +172,9 @@ div {
     padding: 100px 0;
     text-align: center;
     font-family: 'JetBrains Mono', monospace;
-    {% if site.background-img %}
+    {%- if site.background-img -%}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
+    {%- endif -%}
     color: $intro-text-color;
     background-color: $header-background-color;
     -webkit-background-size: cover;
@@ -255,7 +255,7 @@ div {
     ul,
     ol {
         text-align: left;
-        margin: 0 0 25px;
+        margin: 0 0 50px;
         font-size: 18px;
         line-height: 1.5;
         list-style-position: inside;

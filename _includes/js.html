@@ -20,7 +20,7 @@ $(document).ready(toggleNavCollapse);
 $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
 </script>
 
-{% if page.section-type == "index" %}
+{%- if page.section-type == "index" -%}
 
   <!-- Collapse navbar when navbar-brand is clicked -->
 
@@ -28,19 +28,19 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse.in").animate({height:"1px"},500,function(){$(".collapse.in").removeClass("in")})})});
   </script>
 
-{% endif %}
+{%- endif -%}
 
-{% if site.syntax-highlight and page.section-type == "post" %}
+{%- if site.syntax-highlight and page.section-type == "post" -%}
 
   <!-- Syntax highlight in post pages-->
 
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
-{% endif %}
+{%- endif -%}
 
-{% if jekyll.environment == "production" %}
-  {% if site.google-tracking-id %}
+{%- if jekyll.environment == "production" -%}
+  {%- if site.google-tracking-id -%}
 
   <!-- Google Tracking Id Start -->
 
@@ -55,10 +55,10 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   <!-- Google Tracking Id End -->
 
-  {% endif %}
-{% endif %}
+  {%- endif -%}
+{%- endif -%}
 
-{% if site.dynamic-typing and page.section-type == "index"%}
+{%- if site.dynamic-typing and page.section-type == "index"%}
 
   <!-- Dynamic Typing Start -->
 
@@ -66,9 +66,9 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   <script type="text/javascript">
 
   var myQuotes =  new Array();
-  {% for line in site.lines %}
+  {%- for line in site.lines -%}
     myQuotes.push("{{ line.text }}");
-  {% endfor %}
+  {% endfor -%}
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex ;
@@ -89,9 +89,9 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
     return array;
   }
 
-  {% if site.shuffle %}
+  {% if site.shuffle -%}
     shuffle(myQuotes)
-  {% endif %}
+  {% endif -%}
 
     $(".intro-text").typed({
                   strings: myQuotes,
@@ -106,6 +106,6 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
   <!-- Dynamic Typing End  -->
 
-{% endif %}
+{% endif -%}
 
 <!-- Javascript End -->

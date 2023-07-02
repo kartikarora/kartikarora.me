@@ -6,17 +6,17 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i class="fa fa-bars"></i>
             </button>
-            {% if page.page-type == "index" %}
+            {%- if page.page-type == "index" -%}
             <a class="navbar-brand page-scroll" href="#page-top">
-            {% elsif page.page-type != "index" %}
+            {%- elsif page.page-type != "index" -%}
             <a class="navbar-brand page-scroll" href="{{site.baseurl}}/">
-            {% else %}
+            {%- else -%}
             <a class="navbar-brand" href="{{site.baseurl}}">
-            {% endif %}
+            {%- endif -%}
             <div>
-            {% if site.black-favicon %}
+            {%- if site.black-favicon -%}
                 <img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">
-            {% endif %}
+            {%- endif -%}
             {{ site.title }}
             </div>
             </a>
@@ -25,36 +25,36 @@
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
 
-                {% if page.section-type == "index" %}
+                {%- if page.section-type == "index" -%}
                 <!-- Scroll to section for each page except external -->
-                {% for page in site.pages_list %}
+                {%- for page in site.pages_list -%}
                 <li>
-                    {% if page.destination == "external" %}
+                    {%- if page.destination == "external" -%}
                     <a href="{{ page.href }}" target="_blank" rel="nofollow">{{page.label}}</a>
-                    {% elsif page.destination == "internal" %}
+                    {%- elsif page.destination == "internal" -%}
                     <a href="{{ page.href }}">{{page.label}}</a>
-                    {% else %}
+                    {%- else -%}
                     <a class="page-scroll" href="#{{ page.href }}">{{page.label}}</a>
-                    {% endif %}
+                    {%- endif -%}
                 </li>
-                {% endfor %}
-                {% else %}
-                {% for page in site.pages_list %}
+                {%- endfor -%}
+                {%- else -%}
+                {%- for page in site.pages_list -%}
                 <li>
-                    {% if page.destination == "external" %}
+                    {%- if page.destination == "external" -%}
                     <a href="{{ page.href }}" target="_blank" rel="nofollow">{{page.label}}</a>
-                    {% elsif page.destination == "internal" %}
+                    {%- elsif page.destination == "internal" -%}
                     <a href="{{site.baseurl}}/{{ page.href }}">{{page.label}}</a>
-                    {% else %}
+                    {%- else -%}
                     <a class="page-scroll" href="{{site.baseurl}}/#{{ page.href }}">{{page.label}}</a>
-                    {% endif %}
+                    {%- endif -%}
                 </li>
-                {% endfor %}
-                {% endif %}
-                {% assign nav_socials = site.social | where: 'on_nav', true %}
-                {% for social in nav_socials %}
-                <li><a href="{{ social.url }}" rel="me" target="_blank"><i class="fa-{{ social.type }} fa-{{ social.title }}"></i></a></li>
-                {% endfor %}
+                {%- endfor -%}
+                {%- endif -%}
+                {%- assign nav_socials = site.social | where: 'on_nav', true -%}
+                {%- for social in nav_socials -%}
+                <li><a href="{{ social.url }}" rel="me" target="_blank" rel="nofollow"><i class="fa-{{ social.type }} fa-{{ social.title }}"></i></a></li>
+                {%- endfor -%}
             </ul>
         </div>
     </div>

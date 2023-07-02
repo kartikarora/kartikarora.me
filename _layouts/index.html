@@ -4,25 +4,25 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
-  {% include head.html %}
+  {%- include head.html -%}
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
-    {% include navigation.html %}
+    {%- include navigation.html -%}
 
-    {% include header.html %}
+    {%- include header.html -%}
 
-    {% for p in site.pages_list %}
-      {% for page in site.pages %}
-        {% if p.type == page.section-type %}
-          {% include {{ page.path }} %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
+    {%- for p in site.pages_list -%}
+      {%- for page in site.pages -%}
+        {%- if p.type == page.section-type -%}
+          {%- include {{ page.path }} -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
 
-    {% include footer.html %}
+    {%- include footer.html -%}
 
-    {% include js.html %}
+    {%- include js.html -%}
 
   </body>
 </html>

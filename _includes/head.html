@@ -9,38 +9,36 @@
     <meta name="keywords" content="{{site.keyword}}">
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}">
+    <meta itemprop="name" content="{{ site.title }}{%- if page.title -%}  | {{ page.title }}{%- endif -%} ">
     <meta itemprop="description" content="{{ site.description }}">
     <meta itemprop="image" content="{{ site.url }}/img/work/rma.png">
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}"/>
+    <meta property="og:title" content="{{ site.title }}{%- if page.title -%}  | {{ page.title }}{%- endif -%} "/>
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:image" content="{{ site.url }}/img/work/rma.png">
     <meta property="og:description" content="{{ site.description }}"/>
-    <meta property="og:site_name" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %} "/>
+    <meta property="og:site_name" content="{{ site.title }}{%- if page.title -%}  | {{ page.title }}{%- endif -%}  "/>
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@chipset95">
     <meta name="twitter:creator" content="@chipset95">
-    <meta name="twitter:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}">
+    <meta name="twitter:title" content="{{ site.title }}{%- if page.title -%}  | {{ page.title }}{%- endif -%} ">
     <meta name="twitter:description" content="{{ site.description }}">
     <meta name="twitter:image" content="{{ site.url }}/img/work/rma.png">
     <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
     <link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}">
-    <title>{{site.title}} {% if page.title %} | {{page.title}}{% endif %}</title>
+    <title>{{site.title}} {%- if page.title -%}  | {{page.title}}{%- endif -%} </title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Custom CSS -->
     <link href="{{site.baseurl}}/css/grayscale.css" rel="stylesheet">
-    {% if page.page-type == "index" or page.page-type == "talks" or page.page-type == "error" %}
     <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet">
-    {% endif %}
 
     <!-- Custom Fonts -->
     <script src="https://kit.fontawesome.com/e13d147196.js" crossorigin="anonymous"></script>
@@ -64,13 +62,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/img/icon16.png">
     <link rel="manifest" href="{{site.baseurl}}/img/site.webmanifest">
 
-    {% if page.url == "/404.html" | prepend: {{site.baseurl}} %}
+    {%- if page.url == "/404.html" | prepend: {{site.baseurl}} -%}
     <meta http-equiv="refresh" content="5; url={{site.baseurl}}/">
-    {% endif %}
+    {%- endif -%}
 
-    {% include web-app.html %}
+    {%- include web-app.html %}
 
-    {% include syntax-highlight.html %}
+    {%- include syntax-highlight.html %}
 
     {% include force-https.html %}
     <meta name="theme-color" content="#303F9F">

@@ -5,9 +5,9 @@
         <p>Get in touch for help, issues, suggestions, or to <a href="https://www.buymeacoffee.com/kartikarora">buy me a :coffee:</a></p>
         <br>
         <ul class="list-inline social-buttons">
-            {% for network in site.social %}
-            <li><a href="{{ network.url }}" rel="me" target="_blank"><i class="fa-{{ network.type }} fa-{{ network.title }}"></i></a></li>
-            {% endfor %}
+            {%- for network in site.social -%}
+            <li><a href="{{ network.url }}" rel="me" target="_blank" rel="nofollow"><i class="fa-{{ network.type }} fa-{{ network.title }}"></i></a></li>
+            {%- endfor -%}
         </ul>
         <br><br>
         <h6>Made with Ruby & Jeykll | Hosted on GitHub</h6>
