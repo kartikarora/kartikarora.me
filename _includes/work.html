@@ -11,9 +11,9 @@
                 {%- assign loopindex = forloop.index | modulo: 2 -%}
                 {%- if loopindex == 0 %}
                 <li class="timeline-inverted">
-                    {%- else %}
+                {%- else %}
                 <li>
-                    {%- endif %}
+                {%- endif %}
                     <div class="timeline-image">
                         <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
                     </div>
@@ -27,6 +27,26 @@
                         </div>
                     </div>
                 </li>
+                    {%- for project in event.projects -%}
+                    {%- if loopindex == 0 %}
+                    <li class="timeline-inverted">
+                    {%- else %}
+                    <li>
+                    {%- endif %}
+                        <div class="timeline-project-image">
+                            <img class="img-circle img-responsive" src="{{site.baseurl}}{{ project.image }}" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>{{ project.year }}</h4>
+                                <h4>{{ project.title }}</h4>
+                            </div>
+                            <div class="timeline-body">
+                                {{ project.description | markdownify }}
+                            </div>
+                        </div>
+                    </li>
+                    {%- endfor %}
                 {%- endfor %}
             </ul>
         </div>

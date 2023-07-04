@@ -296,6 +296,14 @@ footer {
     p {
         margin: 0;
     }
+    a {
+        color: $primary-text-color-dark;
+        border-bottom: 1px dashed $primary-text-color-dark;
+        &:hover,
+        &:focus {
+            color: $accent-color;
+        }
+    }
 }
 
 ::-moz-selection {
@@ -346,6 +354,19 @@ img.emoji {
   display: inline !important;
 }
 
+
+ul.social-buttons li a {
+    background-color: $primary-surface-dark;
+    color: $primary-text-color-dark;
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: $primary-text-color;
+        background-color: $accent-color;
+    }
+}
+
 @media (prefers-color-scheme: light) {
     body {
         color: $primary-text-color;
@@ -358,17 +379,6 @@ img.emoji {
         &:hover,
         &:focus {
             color: $accent-color;
-        }
-    }
-    ul.social-buttons li a {
-        background-color: $primary-surface;
-        color: $primary-text-color;
-
-        &:hover,
-        &:focus,
-        &:active {
-            color: $primary-text-color;
-            background-color: $accent-color;
         }
     }
     ::-moz-selection {
@@ -392,17 +402,6 @@ img.emoji {
         &:hover,
         &:focus {
             color: $accent-color;
-        }
-    }
-    ul.social-buttons li a {
-        background-color: $primary-surface-dark;
-        color: $primary-text-color-dark;
-
-        &:hover,
-        &:focus,
-        &:active {
-            color: $primary-text-color;
-            background-color: $accent-color;
         }
     }
 
