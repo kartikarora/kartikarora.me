@@ -20,8 +20,34 @@
                 <br><br>Technology: {{ page.technology }}
                 <br><br>
                 <br><br>
-                <p2 align="left">{{ page.content | markdownify }}</p2>
-                <br><br>
+                <h2 align="left">Slides</h2>
+                {%- if page.presentation-id -%}
+                <div class="talk-container">
+                    <iframe class="talk-iframe"
+                            src="https://docs.google.com/presentation/d/e/{{ page.presentation-id }}/embed?start=false&loop=false&delayms=3000"
+                            frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                            webkitallowfullscreen="true">
+                        Browser doesn't support iframe
+                    </iframe>
+                </div>
+                {%- else -%}
+                <p>Coming soon</p>
+                {%- endif -%}
+                <br><br><br>
+                <h2 align="left">Recording</h2>
+                {%- if page.youtube-id -%}
+                <div class="talk-container">
+                    <iframe class="talk-iframe" src="https://www.youtube-nocookie.com/embed/{{page.youtube-id}}"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen>
+                        Browser doesn't support iframe
+                    </iframe>
+                </div>
+                {%- else -%}
+                <p align="left">Coming soon</p>
+                {%- endif -%}
+                <br><br><br>
         </div>
     </div>
     {%- include pagination.html -%}

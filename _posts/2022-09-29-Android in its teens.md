@@ -7,12 +7,5 @@ cover-img: "img/talks/android-13.png"
 permalink: /talks/android-13
 location: "GDG Sydney"
 type: "In Person"
+presentation-id: "2PACX-1vSZBJlN-7_ckYICMhY-OgpPgiRkNTQni0Qr0AOqkqHZ8FX1q0LjEpxZmgfliF7CGtMa2f_Uk_hemwrf"
 ---
-## Slides
-<div class="talk-container">
-    <iframe class="talk-iframe" src="https://docs.google.com/presentation/d/e/2PACX-1vSZBJlN-7_ckYICMhY-OgpPgiRkNTQni0Qr0AOqkqHZ8FX1q0LjEpxZmgfliF7CGtMa2f_Uk_hemwrf/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
-<br>
-
-## Recording
-Coming soon
