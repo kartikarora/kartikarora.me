@@ -14,40 +14,43 @@
         <div class="col-lg-10 col-lg-offset-1">
 
             <img src="/{{page.cover-img}}"/>
+            <br><br>
             <h1>{{ page.title }}</h1>
             <h5 align="left">
                 Presented on: {{ page.date | date_to_string }} @ {{ page.location }}, {{ page.type }}
                 <br><br>Technology: {{ page.technology }}
                 <br><br>
                 <br><br>
-                {%- if page.presentation-id != "NA" -%}
-                <h2 align="left">Slides</h2>
-                <div class="talk-container">
-                    <iframe class="talk-iframe"
-                            src="https://docs.google.com/presentation/d/e/{{ page.presentation-id }}/embed?start=false&loop=false&delayms=3000"
-                            frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
-                            webkitallowfullscreen="true">
-                        Browser doesn't support iframe
-                    </iframe>
-                </div>
-                {%- elsif page.presentation-id == "NA" -%}
-                {%- else -%}
-                <p>Coming soon</p>
+                {%- if page.presentation-id -%}
+                    <h2 align="left">Slides</h2>
+                    {%- if page.presentation-id == '' -%}
+                        <p>Coming soon</p>
+                    {%- else -%}
+                        <div class="talk-container">
+                            <iframe class="talk-iframe"
+                                    src="https://docs.google.com/presentation/d/e/{{ page.presentation-id }}/embed?start=false&loop=false&delayms=3000"
+                                    frameborder="0" allowfullscreen="true" mozallowfullscreen="true"
+                                    webkitallowfullscreen="true">
+                                Browser doesn't support iframe
+                            </iframe>
+                        </div>
+                    {%- endif -%}
                 {%- endif -%}
                 <br><br><br>
-                {%- if page.youtube-id != "NA" -%}
-                <h2 align="left">Recording</h2>
-                <div class="talk-container">
-                    <iframe class="talk-iframe" src="https://www.youtube-nocookie.com/embed/{{page.youtube-id}}"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                        Browser doesn't support iframe
-                    </iframe>
-                </div>
-                {%- elsif page.youtube-id == "NA" -%}
-                {%- else -%}
-                <p align="left">Coming soon</p>
+                {%- if page.youtube-id -%}
+                    <h2 align="left">Recording</h2>
+                    {%- if page.youtube-id == '' -%}
+                        <p align="left">Coming soon</p>
+                    {%- else -%}
+                        <div class="talk-container">
+                            <iframe class="talk-iframe" src="https://www.youtube-nocookie.com/embed/{{page.youtube-id}}"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen>
+                                Browser doesn't support iframe
+                            </iframe>
+                        </div>
+                    {%- endif -%}
                 {%- endif -%}
                 <br><br><br>
         </div>

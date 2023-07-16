@@ -4,6 +4,7 @@ section-type: talk
 title: "What's New in Android 14?"
 technology: Android
 cover-img: "img/talks/android-14.png"
+thumb-img: "img/talks/android-14.png"
 permalink: /talks/android-14-brisbane
 location: "GDG Brisbane"
 type: "Remote"
