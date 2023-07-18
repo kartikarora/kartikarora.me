@@ -9,5 +9,5 @@ permalink: /talks/android-14-dcvn
 location: "Droidcon Vietnam 2023"
 type: "In Person"
 presentation-id: "2PACX-1vT9BqYP_B1s9LvQN-KY6Ws0KuOa9o94ZNQYl6bvdSe3D7tLLF8ePN8zrjaP4RLGb_irof9RGju-YYDg"
-youtube-id: ""
+youtube-id: "TapWNTONjL4?start=20366"
 ---

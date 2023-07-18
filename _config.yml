@@ -4,9 +4,7 @@ url: "https://kartikarora.me"
 
 baseurl: ""
 
-# Google tracking id to track your visitors
-
-google-tracking-id: "UA-69555022-1"
+# Google tag settings
 google-tag: "G-5GZC83CFKC"
 
 # Forces https everywhere in your website, except when you serve it locally
