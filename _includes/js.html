@@ -40,7 +40,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 {%- endif -%}
 
 {%- if jekyll.environment == "production" -%}
-  {%- if site.google-tracking-id -%}
+  {%- if site.google-tag -%}
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google-tag }}"></script>
@@ -55,7 +55,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   {%- endif -%}
 {%- endif -%}
 
-{%- if site.dynamic-typing and page.section-type == "index"%}
+{%- if site.dynamic-typing and page.section-type == "index" -%}
 
   <!-- Dynamic Typing Start -->
 
@@ -65,7 +65,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
   var myQuotes =  new Array();
   {%- for line in site.lines -%}
     myQuotes.push("{{ line.text }}");
-  {% endfor -%}
+  {%- endfor -%}
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex ;
