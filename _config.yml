@@ -166,7 +166,7 @@ social:
     type: "brands"
     url: "https://medium.com/@kartikarora"
     on_nav: true
-  - title: "twitter"
+  - title: "x-twitter"
     type: "brands"
     url: "https://twitter.com/kartikarora95"
     on_nav: false
