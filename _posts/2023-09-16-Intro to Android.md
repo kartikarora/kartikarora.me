@@ -2,7 +2,7 @@
 layout: talk
 section-type: talk
 title: "Intro to Android"
-technology: Kotlin
+technology: Android
 cover-img: "img/talks/and_spin.gif"
 thumb-img: "img/talks/and.png"
 permalink: /talks/intro-android
