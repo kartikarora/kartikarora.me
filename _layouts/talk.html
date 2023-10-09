@@ -37,6 +37,18 @@
                     {%- endif -%}
                 {%- endif -%}
                 <br><br><br>
+                {%- if page.code-at -%}
+                    <h2 align="left">Code</h2>
+                    {%- if page.code-at.url == '' -%}
+                        <p align="left">Coming soon</p>
+                    {%- else -%}
+                    <div>
+                        <p align="left">Code available at <a href="{{ page.code-at.url }}" target="_blank" rel="noreferrer">{{ page.code-at.title }}</a></p>
+                    </div>
+                    {%- endif -%}
+                {%- endif -%}
+
+                <br><br><br>
                 {%- if page.youtube-id -%}
                     <h2 align="left">Recording</h2>
                     {%- if page.youtube-id == '' -%}
