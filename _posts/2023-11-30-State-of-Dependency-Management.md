@@ -9,7 +9,7 @@ permalink: /talks/sodm-sydney
 location: "GDG Sydney"
 type: "In Person"
 presentation-id: "2PACX-1vTJJBZi8axB66VhmsLE_ofoFmvsI0ts7ezyLXqaxwVjQvvS1WQPs1F6WMrU4p1oWRnJ_SwkfRAO5IwW"
-youtube-id: ""
+youtube-id: "upMpWrjDnJc"
 code-at:
     title: "GitHub"
     url: "https://github.com/kartikarora/android-14"
