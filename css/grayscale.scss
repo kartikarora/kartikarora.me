@@ -368,6 +368,34 @@ ul.social-buttons li a {
     }
 }
 
+#page{
+  &.content-section{
+    padding-top: 125px;
+  }
+}
+
+.talk-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.talk-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.paginate {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-ligatures: normal;
+}
+
 @media (prefers-color-scheme: light) {
     body {
         color: $primary-text-color;
@@ -392,55 +420,29 @@ ul.social-buttons li a {
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        color: $primary-text-color-dark;
-        background-color: $primary-surface-dark;
-        -webkit-tap-highlight-color: rgba($dark, 0.2);
-    }
-    a {
-        color: $primary-text-color-dark;
-        border-bottom: 1px dashed $primary-text-color-dark;
-        &:hover,
-        &:focus {
-            color: $accent-color;
-        }
-    }
+  body {
+    color: $primary-text-color-dark;
+    background-color: $primary-surface-dark;
+    -webkit-tap-highlight-color: rgba($dark, 0.2);
+  }
+  a {
+    color: $primary-text-color-dark;
+    border-bottom: 1px dashed $primary-text-color-dark;
 
-    ::-moz-selection {
-        color: $primary-text-color;
-        background: $accent-color;
+    &:hover,
+    &:focus {
+      color: $accent-color;
     }
+  }
 
-    ::selection {
-        color: $primary-text-color;
-        background: $accent-color;
-    }
+  ::-moz-selection {
+    color: $primary-text-color;
+    background: $accent-color;
+  }
 
-    #page{
-        &.content-section{
-            padding-top: 125px;
-        }
-    }
-
-    .talk-container {
-          position: relative;
-          overflow: hidden;
-          width: 100%;
-          padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-      }
-
-    .talk-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .paginate {
-        font-family: 'JetBrains Mono', monospace;
-        font-variant-ligatures: normal;
-    }
+  ::selection {
+    color: $primary-text-color;
+    background: $accent-color;
+  }
 }
+
