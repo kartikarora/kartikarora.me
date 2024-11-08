@@ -34,6 +34,10 @@ pages_list:
     type: articles
     href: "https://medium.com/@kartikarora"
     destination: "external"
+  - label: "Codelabs"
+    type: articles
+    href: "https://codelabs.kartikarora.me"
+    destination: "external"
 
 web-app-mode: true
 
