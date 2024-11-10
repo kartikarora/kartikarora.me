@@ -210,3 +210,13 @@ sass:
 plugins:
   - jeykyll-gist
   - jemoji
+  - jekyll-redirect-from
+
+
+collections:
+  urls:
+    output: true
+    permalink: /s/:slug
+
+whitelist:
+  - jekyll-redirect-from
