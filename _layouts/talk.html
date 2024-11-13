@@ -19,8 +19,6 @@
             <h5 align="left">
                 Presented on: {{ page.date | date_to_string }} @ {{ page.location }}, {{ page.type }}
                 <br><br>Technology: {{ page.technology }}
-                <br><br>
-                <br><br>
                 {%- if page.presentation-id -%}
                     <h2 align="left">Slides</h2>
                     {%- if page.presentation-id == '' -%}
@@ -35,8 +33,8 @@
                             </iframe>
                         </div>
                     {%- endif -%}
-                {%- endif -%}
                 <br><br><br>
+                {%- endif -%}
                 {%- if page.code-at -%}
                     <h2 align="left">Code</h2>
                     {%- if page.code-at.url == '' -%}
@@ -46,9 +44,9 @@
                         <p align="left">Code available at <a href="{{ page.code-at.url }}" target="_blank" rel="noreferrer">{{ page.code-at.title }}</a></p>
                     </div>
                     {%- endif -%}
+                <br><br><br>
                 {%- endif -%}
 
-                <br><br><br>
                 {%- if page.youtube-id -%}
                     <h2 align="left">Recording</h2>
                     {%- if page.youtube-id == '' -%}
@@ -63,8 +61,9 @@
                             </iframe>
                         </div>
                     {%- endif -%}
-                {%- endif -%}
                 <br><br><br>
+                {%- endif -%}
+                {{ page.content | markdownify }}
         </div>
     </div>
     {%- include pagination.html -%}
