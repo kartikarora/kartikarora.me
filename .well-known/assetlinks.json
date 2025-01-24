@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "au.com.qantas.qstreaming",
+      "sha256_cert_fingerprints": [
+        "F7:9B:2A:40:9A:49:76:1C:F9:C6:D4:10:EE:1A:51:DD:F0:27:20:F9:BB:32:C4:24:F4:6E:D3:EC:B2:14:BE:6B",
+        "2B:40:44:86:82:36:6A:BD:BE:F1:B7:CC:B3:06:D3:9B:32:60:F9:BC:AF:2A:06:05:7A:00:37:C4:45:64:18:5D"
+      ]
+    }
+  }
+]

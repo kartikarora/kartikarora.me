@@ -200,7 +200,7 @@ not-found-img: "/img/404.png"
 # Exclusion list from the generated _site
 
 exclude: [ "LICENSE", "README", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "Gemfile", "Gemfile.lock", "CNAME" ]
-include: [ "keybase.txt" ]
+include: [ "keybase.txt", ".well-known" ]
 
 # Enable minification SASS
 
