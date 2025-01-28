@@ -1,8 +1,9 @@
 ---
 title: Inkaholic
-permalink: /inkaholic/
+permalink: /inkaholic
+redirect_to:
+- https://linktr.ee/inkholicau
 ---
-
 
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">>
